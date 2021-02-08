@@ -1,7 +1,7 @@
 {
-  "name": "user-service",
+  "name": "product-service",
   "version": "1.0.0",
-  "description": "services to perform the calls related to a users",
+  "description": "services to perform the calls related to products ",
   "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

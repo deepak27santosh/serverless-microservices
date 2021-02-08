@@ -6,9 +6,6 @@
   "dependencies": {
     "serverless": "^2.22.0"
   },
-  "devDependencies": {
-    "serverless-latest-layer-version": "^2.1.1"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
