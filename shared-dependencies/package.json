@@ -1,0 +1,14 @@
+{
+  "name": "shared-dependencies",
+  "version": "1.0.0",
+  "description": "All of the shared dependecies defined in a single place",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepak Raghupatruni",
+  "license": "ISC",
+  "dependencies": {
+    "dynamo-resolver": "file:../dynamo-resolver"
+  }
+}

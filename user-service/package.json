@@ -1,0 +1,14 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "description": "services to perform the calls related to a users",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepak Raghupatruni",
+  "license": "ISC",
+  "devDependencies": {
+    "dynamo-resolver": "file:../dynamo-resolver"
+  }
+}
