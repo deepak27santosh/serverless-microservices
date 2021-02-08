@@ -1,4 +1,4 @@
-service: user
+service: products
 
 plugins:
   - serverless-latest-layer-version
@@ -13,10 +13,10 @@ provider:
 functions:
   hello:
     handler: handler.hello
-    description: invoke hello function from User service
+    description: invoke hello function from Product service
     events:
       - http:
-          path: users
+          path: products
           method: get
     environment:
       NODE_PATH: "./:/opt/node_modules"
