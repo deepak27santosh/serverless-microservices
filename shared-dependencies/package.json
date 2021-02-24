@@ -9,8 +9,9 @@
   "author": "Deepak Raghupatruni",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.839.0",
     "dynamo-resolver": "file:../dynamo-resolver",
-    "aws-sdk": "^2.839.0"
+    "sns-resolver": "file:../sns-resolver"
   },
   "devDependencies": {
     "serverless-latest-layer-version": "^2.1.1"

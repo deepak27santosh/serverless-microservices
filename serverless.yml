@@ -1,4 +1,4 @@
-service: microservices
+service: inward-core-api-microservices
 
 provider:
   name: aws
@@ -9,6 +9,10 @@ provider:
     - Effect: Allow
       Action:
         - dynamodb:GetItem
+      Resource: "*"
+    - Effect: Allow
+      Action:
+        - SNS:Publish
       Resource: "*"
 
 layers:
